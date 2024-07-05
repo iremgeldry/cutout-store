@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,KAAK,AAAA,CAIH,KAAK,CAAE,IAAI,CACX,OAAO,CAAE,CAAC,CACV,GAAG,CAAE,CAAC,CAUP,AAhBD,AAUE,KAVG,CAUH,IAAI,AAAA,CAEF,MAAM,CAAE,CAAC,CACV",
+    "sources": [
+        "../src/components/List/List.scss"
+    ],
+    "names": [],
+    "file": "List.min.css"
+}

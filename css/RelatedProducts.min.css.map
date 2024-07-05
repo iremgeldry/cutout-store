@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,gBAAgB,AAAA,CACZ,OAAO,CAAE,IAAI,CAahB,AAdD,AAII,gBAJY,CAIZ,EAAE,AAAA,CACE,UAAU,CAAE,MAAM,CAClB,SAAS,CAAE,GAAG,CACd,WAAW,CAAE,GAAG,CACjB,AARP,AAUI,gBAVY,CAUZ,qBAAqB,AAAA,CACjB,UAAU,CAAE,IAAI,CACnB",
+    "sources": [
+        "../src/components/RelatedProducts/RelatedProducts.scss"
+    ],
+    "names": [],
+    "file": "RelatedProducts.min.css"
+}

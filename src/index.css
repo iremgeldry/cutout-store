@@ -1,0 +1,16 @@
+:root {
+  --maincolor: rgb(84, 71, 86);
+}
+
+p,
+a,
+h1,
+h5,
+span,
+hr {
+  color: var(--maincolor);
+}
+
+a {
+  text-decoration: none;
+}

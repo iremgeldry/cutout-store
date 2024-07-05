@@ -1,0 +1,104 @@
+    .product {
+      align-items: flex-start;
+      
+  
+      //LEFT SIDE
+      .left {
+        align-items: center;
+        margin: 0 4em 0 0;
+        
+        .carousel{
+
+          img{
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            aspect-ratio: 1;
+            object-fit: cover;
+            cursor: pointer;
+            margin-bottom: 50px;
+          }
+  
+        }
+        
+          
+      }
+      //RIGHT SIDE
+      .right {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        align-content: space-between;
+        .right-wrapper{
+  
+          max-width: 500px;
+          display: grid;
+          grid-template-columns: 100%;
+          gap: 20px;
+  
+          p{
+            font-size: 15px;
+            font-weight: 300;
+            text-align: justify;
+          }
+      
+          .quantity{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 10px;
+      
+            button{
+              width: 30px;
+              height: 30px;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              cursor: pointer;
+              border: none;
+              border-radius: 50px;
+            }
+          }
+    
+          .buttons{
+              display: flex;
+              flex-direction: column;
+              gap: 5px;
+              
+            .button{
+                width: 100%px;
+                padding: 10px;
+                background-color: var(--maincolor);
+                color: white;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 20px;
+                cursor: pointer;
+                border: none;
+                font-weight: 500;
+                border-radius: 50px;
+
+                p{
+                  margin: 0;
+                }
+              }
+          }
+          
+      
+          .links{
+            display: flex;
+            gap: 20px;
+      
+            .item{
+              display: flex;
+              align-items: center;
+              gap: 10px;
+              font-size: 14px;
+            }
+          }
+        }
+      }
+    }
+
+
